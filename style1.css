@@ -99,3 +99,65 @@ body {
     background-color: #EBDA71;
     color: #10B8B5;
 }
+/* ===== Mobile Version ===== */
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 30px 10px;
+    }
+
+    /* Navigation */
+    .navbar {
+        padding: 8px 5px;
+        flex-wrap: wrap;
+    }
+
+    .navbar .logo img {
+        height: 35px;
+    }
+
+    .navbar .title {
+        font-size: 18px;
+    }
+
+    .navbar li {
+        margin: 0 5px;
+    }
+
+    .navbar li a {
+        font-size: 18px;
+        padding: 8px 5px;
+    }
+
+    /* Banner */
+    .banner {
+        height: 280px;
+    }
+
+    /* Chapter list */
+    .chapter {
+        width: 100%;
+    }
+
+    .chapter li {
+        margin: 20px 0;
+    }
+
+    .chapter li a {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .chapter img {
+        height: 180px;
+    }
+
+    /* Photo row */
+    .photo-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
